@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url(Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-extraLight';
+  src: url(Montserrat/Montserrat-ExtraLight.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Montserrat-Medium', 'Franklin Gothic Medium', 'Arial Narrow',
+    Arial, sans-serif;
+  color: #ebebeb;
+  background-color: #d9c9b4;
+  letter-spacing: 5px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* Шапка */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url('cupcake icon.svg') center;
+  background-size: cover;
+}
+.page-header,
+.page-footer {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.header-top {
+  margin-bottom: 150px;
+}
+.logo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.main-nav {
+  float: right;
+  margin-top: 35px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.menu {
+  list-style: none;
+}
+.main-nav li {
+  float: left;
+  margin-right: 54px;
+}
+.main-nav li:last-child {
+  margin-right: 0;
+}
+.main-nav a {
+  display: block;
+  color: #ebebeb;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main-nav a:hover {
+  color: #b18d70;
+  border-bottom: 1px solid #694834;
+}
+.main-nav a:active {
+  color: #694834;
+  border-bottom: 1px solid #2e1d1e;
+}
+.promo {
+  font-family: 'Montserrat-extraLight';
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 180px;
+}
+.buy {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 6px 10px;
+  background-color: #b18d70;
+  letter-spacing: 3px;
+}
+.buy:hover {
+  background-color: #694834;
+}
+.buy:active {
+  background-color: #2e1d1e;
+}
+.buy a {
+  color: #ebebeb;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.buy a:hover {
+  color: #e1dad4;
+}
+.buy a:active {
+  color: #d9c9b4;
+}
+
+/*Блок обо мне*/
+.my_inf {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #2e1d1e;
+}
+.my_photo {
+  width: 300px;
+}
+.my_photo img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 4px #694834;
+}
+.my_text {
+  background-color: #b18d70;
+  padding: 40px 40px;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  padding-bottom: 0;
+  height: 330px;
+}
+.heading {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.description {
+  width: 350px;
+  word-wrap: break-word;
+}
+
+/*Отзывы*/
+.feedback {
+  background-color: #d9c9b4;
+  padding: 80px 20px;
+}
+.feedback .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  margin-bottom: 30px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.card:last-child {
+  margin-right: 0;
+}
+/*Подвал сайта*/
+footer {
+  background-color: #694834;
+}
+.page-footer {
+  padding-bottom: 30px;
+}
+.footer-top {
+  margin-bottom: 50px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.contact img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.vk {
+  margin-bottom: 20px;
+}
+.vk a,
+.wats_up a {
+  text-decoration: none;
+  color: #ebebeb;
+  vertical-align: middle;
+  letter-spacing: 3px;
+}
+.adres b {
+  vertical-align: middle;
+}
+.adres a {
+  text-decoration: none;
+  color: #ebebeb;
+}
+.adres a p {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  max-width: 300px;
+}
+.developer b {
+  vertical-align: middle;
+}
+.developer p {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  .main-nav {
+    font-size: 16px;
+    text-align: right;
+    margin-top: -5px;
+  }
+  .main-nav li {
+    float: none;
+    margin-right: 20px;
+    margin-bottom: 3px;
+  }
+  .main-nav li:last-child {
+    margin-right: 20px;
+  }
+  .promo {
+    font-size: 25px;
+    line-height: 50px;
+    word-wrap: break-word;
+    margin-bottom: 160px;
+  }
+  .my_inf {
+    display: block;
+    text-align: center;
+  }
+
+  .my_photo {
+    width: auto;
+  }
+  .my_text {
+    background-color: #d9c9b4;
+    padding: 0;
+    height: auto;
+  }
+  .heading {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .description {
+    width: auto;
+    text-align: center;
+    margin-right: 0;
+    padding: 0 20px;
+  }
+  .footer-bottom {
+    display: block;
+  }
+  .contact,
+  .adres,
+  .developer {
+    padding-left: 20px;
+  }
+  .adres {
+    margin-bottom: 0;
+  }
+  .adres b {
+    margin-bottom: -15px;
+  }
+  .developer b {
+    margin-bottom: -15px;
+  }
+  .vk,
+  .wats_up {
+    margin-bottom: 10px;
+  }
+}
