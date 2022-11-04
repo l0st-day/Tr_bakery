@@ -100,7 +100,7 @@ main .container {
 .card {
   color: #b18d70;
   border-bottom: 1px solid #2e1d1e;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 60px;
 }
 .card:last-child {
@@ -205,6 +205,7 @@ footer {
 }
 .adres a {
   text-decoration: none;
+  text-decoration: underline;
   color: #ebebeb;
 }
 .adres a p {
@@ -214,6 +215,10 @@ footer {
 }
 .developer b {
   vertical-align: middle;
+}
+.developer a {
+  text-decoration: none;
+  color: #ebebeb;
 }
 .developer p {
   padding-top: 10px;
@@ -301,6 +306,9 @@ footer {
   }
   .adres b {
     margin-bottom: -15px;
+  }
+  .adres p {
+    text-decoration: underline;
   }
   .developer b {
     margin-bottom: -15px;
