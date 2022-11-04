@@ -285,6 +285,7 @@ footer {
   }
   .middle-price {
     display: block;
+    padding: 0 20px;
   }
   .middle-price h3 {
     font-size: 24px;
