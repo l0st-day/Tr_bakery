@@ -129,7 +129,6 @@ header {
 .my_inf {
   padding-top: 80px;
   padding-bottom: 80px;
-  border-bottom: 1px solid #2e1d1e;
 }
 .my_inf .container {
   display: flex;
@@ -166,7 +165,6 @@ header {
   background-color: #d9c9b4;
   padding: 80px 20px;
   padding-bottom: 60px;
-  border-bottom: 1px solid #2e1d1e;
 }
 .feedback .container {
   display: flex;
