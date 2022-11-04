@@ -296,6 +296,9 @@ footer {
     max-width: 500px;
     margin-bottom: 20px;
   }
+  .text-right ul {
+    margin-left: 20px;
+  }
   .heading h2 {
     font-size: 30px;
     margin-left: 20px;
