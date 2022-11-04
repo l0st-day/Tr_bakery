@@ -228,12 +228,12 @@ footer {
     width: 100%;
   }
   .logo {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
   .logo img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
   .main-nav {
     font-size: 16px;
@@ -272,15 +272,15 @@ footer {
   }
   .left-fill img {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 0;
   }
   .right-fill {
     float: none;
-    width: 300px;
+    width: auto;
     margin-top: 40px;
     margin-right: 0;
-    padding: 0 20px;
+    padding: 0 40px;
   }
   .footer-bottom {
     display: block;
