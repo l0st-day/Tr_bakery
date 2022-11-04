@@ -265,11 +265,13 @@ footer {
 
   .my_photo {
     width: auto;
+    margin-bottom: 30px;
   }
   .my_text {
     background-color: #d9c9b4;
     padding: 0;
     height: auto;
+    color: #2e1d1e;
   }
   .heading {
     font-size: 30px;
