@@ -149,17 +149,50 @@ header {
   border-radius: 20px;
   letter-spacing: 2px;
   padding-bottom: 0;
-  height: 330px;
 }
 .heading {
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .description {
   width: 350px;
   word-wrap: break-word;
+  max-height: 240px;
+  overflow: hidden;
+  position: relative;
 }
-
+.description .bottom {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgb(255 217 29 / 0%), #d9c9b4 90%);
+  width: 100%;
+  height: 60px;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+.read-more {
+  opacity: 0;
+  position: absolute;
+}
+.read-more:checked ~ .description {
+  max-height: none;
+}
+.read-more:checked ~ .description .bottom {
+  opacity: 0;
+  transition: 0.3s;
+}
+.read-more ~ .read-more-button::before {
+  content: 'Развернуть';
+}
+.read-more:checked ~ .read-more-button::before {
+  content: 'Свернуть';
+}
+.read-more-button {
+  cursor: pointer;
+  display: inline-block;
+  color: #694834;
+  text-decoration: underline;
+}
 /*Отзывы*/
 .feedback {
   background-color: #d9c9b4;
@@ -167,6 +200,7 @@ header {
   padding-bottom: 60px;
 }
 .feedback .container {
+  max-width: 1035px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -174,12 +208,14 @@ header {
 .card {
   margin-bottom: 30px;
   text-align: center;
-  width: 200px;
-  height: 200px;
-  border: 1px solid black;
+  width: 300px;
 }
 .card:last-child {
   margin-right: 0;
+}
+.card img {
+  width: 300px;
+  border-radius: 20px;
 }
 /* Доставка */
 .delivery {
