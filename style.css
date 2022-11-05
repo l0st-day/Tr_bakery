@@ -293,7 +293,7 @@ footer {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 100%;
+    max-width: 100%;
   }
   .logo {
     width: 90px;
