@@ -5,15 +5,15 @@
 
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url('Montserrat-Medium.ttf')
+  src: url('Montserrat/Montserrat-Medium.ttf')
 }
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url('Montserrat-Light.ttf');
+  src: url('Montserrat/Montserrat-Light.ttf');
 }
 @font-face {
   font-family: 'Montserrat-extraLight';
-  src: url('Montserrat-ExtraLight.ttf');
+  src: url('Montserrat/Montserrat-ExtraLight.ttf');
 }
 body {
   margin: 0;
@@ -315,7 +315,7 @@ footer {
   .main-nav li:last-child {
     margin-right: 20px;
   }
-  .promo {
+  header .promo {
     font-size: 25px;
     line-height: 50px;
     margin-bottom: 160px;
