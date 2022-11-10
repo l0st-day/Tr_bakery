@@ -4,15 +4,15 @@
 }
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url('Montserrat/Montserrat-Medium.ttf');
+  src: url('Montserrat-Medium.ttf');
 }
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url('Montserrat/Montserrat-Light.ttf');
+  src: url('Montserrat-Light.ttf');
 }
 @font-face {
   font-family: 'Montserrat-extraLight';
-  src: url('Montserrat/Montserrat-ExtraLight.ttf');
+  src: url('Montserrat-ExtraLight.ttf');
 }
 body {
   margin: 0;
