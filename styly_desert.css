@@ -268,10 +268,13 @@ footer {
     float: none;
   }
   .buy{
+    display: none;
+  }
+  /* .buy{
     position: absolute;
     bottom: 30px;
-    left: 40%;
-  }
+    left: 30%;
+  } */
   /* .buy {
     width: 90px;
     margin-right: 20px;
@@ -305,6 +308,22 @@ footer {
     text-align: left;
     margin-left: 20px;
     margin-bottom: 30px;
+  }
+  .price::after{
+    content: 'Заказать';
+    display: block;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 6px 10px;
+    background-color: #b18d70;
+    color: #ebebeb;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .price::after:active {
+    background-color: #2e1d1e;
+    color: #d9c9b4;
   }
   .footer-bottom {
     display: block;
