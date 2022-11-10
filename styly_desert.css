@@ -258,17 +258,18 @@ footer {
   .card{
     position: relative;
   }
+  .heading{
+    text-align: center;
+  }
   .heading h2 {
     font-size: 30px;
-    margin-left: 20px;
     margin-bottom: 80px;
-    max-width: 230px;
     word-wrap: break-word;
+    float: none;
   }
   .buy{
     position: absolute;
     bottom: 0;
-    text-align: center;
   }
   /* .buy {
     width: 90px;
