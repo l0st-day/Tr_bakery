@@ -91,7 +91,7 @@ header {
   border-bottom: 1px solid #2e1d1e;
 }
 .promo {
-  font-family: 'Montserrat-extraLight';
+  font-family: 'Montserrat-Light';
   font-size: 50px;
   font-weight: bold;
   line-height: 100px;
@@ -292,18 +292,6 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  @font-face {
-    font-family: 'Montserrat-Medium';
-    src: url('Montserrat/Montserrat-Medium.ttf');
-  }
-  @font-face {
-    font-family: 'Montserrat-Light';
-    src: url('Montserrat/Montserrat-Light.ttf');
-  }
-  @font-face {
-    font-family: 'Montserrat-extraLight';
-    src: url('Montserrat/Montserrat-ExtraLight.ttf');
-  }
   .container {
     max-width: 100%;
   }
