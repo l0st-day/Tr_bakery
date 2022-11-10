@@ -263,7 +263,7 @@ footer {
   }
   .heading h2 {
     font-size: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     word-wrap: break-word;
     float: none;
   }
@@ -273,16 +273,6 @@ footer {
     left: 50%;
     margin-left: -85px;
   }
-  /* .buy {
-    width: 90px;
-    margin-right: 20px;
-    margin-top: -7px;
-
-  }
-  .buy a {
-    letter-spacing: 2px;
-    font-size: 14px;
-  } */
   .middle-card {
     display: block;
     text-align: center;
