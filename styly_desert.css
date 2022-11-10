@@ -120,6 +120,7 @@ main .container {
   background-color: #b18d70;
   float: right;
   margin-top: -3px;
+  letter-spacing: 3px;
 }
 .buy:hover {
   background-color: #694834;
