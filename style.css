@@ -319,8 +319,8 @@ footer {
   .promo {
     font-size: 25px;
     line-height: 50px;
-    word-wrap: break-word;
     margin-bottom: 160px;
+    font-weight: lighter;
   }
   .my_inf {
     display: block;
