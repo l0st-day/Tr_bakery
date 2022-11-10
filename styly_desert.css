@@ -273,6 +273,9 @@ footer {
     left: 50%;
     margin-left: -85px;
   }
+  .buy a{
+    letter-spacing: 3px;
+  }
   .middle-card {
     display: block;
     text-align: center;
