@@ -263,13 +263,14 @@ footer {
   }
   .heading h2 {
     font-size: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     word-wrap: break-word;
     float: none;
   }
   .buy{
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
+    left: 0.5em;
   }
   /* .buy {
     width: 90px;
@@ -290,7 +291,7 @@ footer {
   }
   .photo img {
     width: 300px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
   .description {
     font-size: 16px;
@@ -302,6 +303,7 @@ footer {
   .price {
     text-align: left;
     margin-left: 20px;
+    margin-bottom: 30px;
   }
   .footer-bottom {
     display: block;
