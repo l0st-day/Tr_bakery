@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 @font-face {
   font-family: 'Montserrat-Medium';
   src: url(Montserrat/Montserrat-Medium.ttf);
@@ -19,8 +20,7 @@ body {
   padding: 0;
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Montserrat-Medium', 'Franklin Gothic Medium', 'Arial Narrow',
-    Arial, sans-serif;
+  font-family: 'Montserrat-Medium', 'Franklin Gothic Medium', 'Arial Narrow', serif;
   color: #ebebeb;
   background-color: #d9c9b4;
   letter-spacing: 5px;
@@ -284,7 +284,7 @@ footer {
   vertical-align: middle;
 }
 .developer a {
-  text-decoration: none;
+  
   color: #ebebeb;
 }
 .developer p {
@@ -317,7 +317,6 @@ footer {
     margin-right: 20px;
   }
   .promo {
-    font-family: 'Montserrat-extraLight';
     font-size: 25px;
     line-height: 50px;
     word-wrap: break-word;
