@@ -255,6 +255,9 @@ footer {
   .main-nav li:last-child {
     margin-right: 20px;
   }
+  .card{
+    position: relative;
+  }
   .heading h2 {
     font-size: 30px;
     margin-left: 20px;
@@ -262,15 +265,21 @@ footer {
     max-width: 230px;
     word-wrap: break-word;
   }
-  .buy {
+  .buy{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  /* .buy {
     width: 90px;
     margin-right: 20px;
     margin-top: -7px;
+
   }
   .buy a {
     letter-spacing: 2px;
     font-size: 14px;
-  }
+  } */
   .middle-card {
     display: block;
     text-align: center;
