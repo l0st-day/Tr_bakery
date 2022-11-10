@@ -311,10 +311,9 @@ footer {
     margin-right: 20px;
     margin-top: -7px;
   }
-  /* .buy a {
-    letter-spacing: 2px;
-    font-size: 14px;
-  } */
+  .buy a {
+    letter-spacing: 3px;
+  }
   .filling {
     display: block;
     text-align: center;
