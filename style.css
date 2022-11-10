@@ -6,6 +6,8 @@
 @font-face {
   font-family: 'Montserrat-Medium';
   src: url('Montserrat/Montserrat-Medium.ttf');
+  font-family: 'Montserrat-Light';
+  src: url('Montserrat/Montserrat-Light.ttf');
 }
 @font-face {
   font-family: 'Montserrat-Light';
@@ -90,7 +92,7 @@ header {
   color: #694834;
   border-bottom: 1px solid #2e1d1e;
 }
-.promo {
+header .promo {
   font-family: 'Montserrat-extraLight', 'Franklin Gothic Medium', 'Arial Narrow',
     Arial, sans-serif;
   font-size: 50px;
