@@ -279,6 +279,10 @@ footer {
   .main-nav li:last-child {
     margin-right: 20px;
   }
+  .filling:nth-child(2n) {
+    background: linear-gradient(90deg, #d9c9b4, #b18d70 10% 90%, #d9c9b4);
+    color: #ebebeb;
+  }
   .price h2 {
     font-size: 30px;
     margin-left: 20px;
