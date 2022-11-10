@@ -270,11 +270,12 @@ footer {
   .buy{
     display: none;
   }
-  /* .buy{
+  .buy{
     position: absolute;
     bottom: 30px;
-    left: 30%;
-  } */
+    left: 50%;
+    margin-left: -75px;
+  }
   /* .buy {
     width: 90px;
     margin-right: 20px;
@@ -308,24 +309,6 @@ footer {
     text-align: left;
     margin-left: 20px;
     margin-bottom: 30px;
-  }
-  .price::after{
-    content: 'Заказать';
-    display: block;
-    width: 150px;
-    text-align: center;
-    border-radius: 20px;
-    padding: 6px 10px;
-    background-color: #b18d70;
-    color: #ebebeb;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    src: 'https://api.whatsapp.com/send/?phone=79263305391&text&type=phone_number&app_absent=0';
-  }
-  .price::after:active {
-    background-color: #2e1d1e;
-    color: #d9c9b4;
   }
   .footer-bottom {
     display: block;
