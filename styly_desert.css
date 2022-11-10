@@ -269,8 +269,8 @@ footer {
   }
   .buy{
     position: absolute;
-    bottom: 20px;
-    left: 0.5em;
+    bottom: 30px;
+    left: 20px;
   }
   /* .buy {
     width: 90px;
@@ -299,6 +299,7 @@ footer {
     width: auto;
     margin-right: 0;
     padding: 0 20px;
+    margin-bottom: 10px;
   }
   .price {
     text-align: left;
