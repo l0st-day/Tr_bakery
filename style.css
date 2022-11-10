@@ -20,7 +20,7 @@ body {
   padding: 0;
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Montserrat-Medium', 'Franklin Gothic Medium', 'Arial Narrow', serif;
+  font-family: 'Montserrat-Medium', 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
   color: #ebebeb;
   background-color: #d9c9b4;
   letter-spacing: 5px;
