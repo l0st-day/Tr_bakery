@@ -165,7 +165,7 @@ main .container {
   color: #694834;
 }
 .filling:nth-child(2n) {
-  background: linear-gradient(90deg, #d9c9b4, #b18d70 20% 80%, #d9c9b4);
+  background: linear-gradient(90deg, #d9c9b4, #b18d70 15% 85%, #d9c9b4);
   color: #ebebeb;
 }
 .left-fill {
