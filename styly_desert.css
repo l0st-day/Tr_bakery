@@ -5,15 +5,15 @@
 
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url('Montserrat-Medium.ttf');
+  src: url('Montserrat/Montserrat-Medium.ttf');
 }
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url('Montserrat-Light.ttf');
+  src: url('Montserrat/Montserrat-Light.ttf');
 }
 @font-face {
   font-family: 'Montserrat-extraLight';
-  src: url('Montserrat-ExtraLight.ttf');
+  src: url('Montserrat/Montserrat-ExtraLight.ttf');
 }
 body {
   margin: 0;
@@ -43,7 +43,7 @@ header {
 }
 .page-header,
 .page-footer {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 .logo {
@@ -218,7 +218,6 @@ footer {
   vertical-align: middle;
 }
 .developer a {
-  text-decoration: none;
   color: #ebebeb;
 }
 .developer p {
@@ -294,7 +293,7 @@ footer {
     width: auto;
     margin-right: 0;
     padding: 0 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .price {
     text-align: left;

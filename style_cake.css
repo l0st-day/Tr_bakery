@@ -4,15 +4,15 @@
 }
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url('Montserrat-Medium.ttf');
+  src: url('Montserrat/Montserrat-Medium.ttf');
 }
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url('Montserrat-Light.ttf');
+  src: url('Montserrat/Montserrat-Light.ttf');
 }
 @font-face {
   font-family: 'Montserrat-extraLight';
-  src: url('Montserrat-ExtraLight.ttf');
+  src: url('Montserrat/Montserrat-ExtraLight.ttf');
 }
 body {
   margin: 0;
@@ -34,6 +34,21 @@ body {
   display: block;
   clear: both;
 }
+.button-up{
+  display: none;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  background-color: #d9c9b4;
+  bottom: 60px;
+  right: 40px;
+}
+.main-fill:hover .button-up,
+footer:hover .button-up{
+  display: block;
+}
 /* Шапка */
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
@@ -42,7 +57,7 @@ header {
 }
 .page-header,
 .page-footer {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 .logo {
@@ -95,7 +110,6 @@ header {
 /*Начинки*/
 main {
   padding-top: 80px;
-  padding-bottom: 60px;
 }
 main .container {
   max-width: 1035px;
@@ -164,10 +178,14 @@ main .container {
   padding-top: 40px;
   padding-bottom: 40px;
   color: #694834;
+  margin-bottom: -10px;
 }
 .filling:nth-child(2n) {
   background: linear-gradient(90deg, #d9c9b4, #b18d70 15% 85%, #d9c9b4);
   color: #ebebeb;
+}
+.filling:last-child{
+  margin-bottom: 60px;
 }
 .left-fill {
   margin-left: 150px;
@@ -192,7 +210,6 @@ main .container {
   padding: 20px 20px;
 }
 .filling p {
-  margin-bottom: 10px;
   word-wrap: break-word;
   font-size: 18px;
 }
@@ -242,7 +259,6 @@ footer {
   vertical-align: middle;
 }
 .developer a {
-  text-decoration: none;
   color: #ebebeb;
 }
 .developer p {

@@ -5,15 +5,15 @@
 
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url('Montserrat-Medium.ttf')
+  src: url('Montserrat/Montserrat-Medium.ttf')
 }
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url('Montserrat-Light.ttf');
+  src: url('Montserrat/Montserrat-Light.ttf');
 }
 @font-face {
   font-family: 'Montserrat-extraLight';
-  src: url('Montserrat-ExtraLight.ttf');
+  src: url('Montserrat/Montserrat-ExtraLight.ttf');
 }
 body {
   margin: 0;
@@ -28,6 +28,7 @@ body {
 .container {
   max-width: 900px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 .clearfix::after {
   content: '';
@@ -200,25 +201,93 @@ header .promo {
 /*Отзывы*/
 .feedback {
   background-color: #d9c9b4;
-  padding: 80px 20px;
+  padding: 30px 20px;
   padding-bottom: 60px;
 }
 .feedback .container {
   max-width: 1035px;
+}
+.headingFeed h2 {
+  font-size: 40px;
+  margin-bottom: 100px;
+  color: #b18d70;
+  float: left;
+}
+.slider input {
+  display: none;
+}
+.cards{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  position: relative;
+  perspective: 100px;
+  margin-bottom: 20px;
+  min-height: 480px;
 }
-.card {
+.cards .card {
   text-align: center;
-  width: 300px;
-}
-.card:last-child {
-  margin-right: 0;
+  width: 320px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  position: absolute;
+  top: 0;
+  background-color: #ffdaca;
+  border-radius: 20px;
 }
 .card img {
-  width: 300px;
+  width: 320px;
   border-radius: 20px;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dots label {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #694834;
+  margin: 7px;
+  transition-duration: 0.2s;
+}
+#t-1:checked ~ .dots label[for='t-1'],
+#t-2:checked ~ .dots label[for='t-2'],
+#t-3:checked ~ .dots label[for='t-3']{
+  transform: scale(1.5);
+  background-color: #2e1d1e;
+}
+#t-1:checked ~ .dots label[for='t-2'],
+#t-1:checked ~ .dots label[for='t-3'],
+#t-2:checked ~ .dots label[for='t-1'],
+#t-2:checked ~ .dots label[for='t-3'],
+#t-3:checked ~ .dots label[for='t-1'],
+#t-3:checked ~ .dots label[for='t-2']{
+  transform: scale(1);
+}
+#t-1:checked ~ .cards label[for='t-2'],
+#t-2:checked ~ .cards label[for='t-3'],
+#t-3:checked ~ .cards label[for='t-1']{
+  transform: translate(350px, 0)
+  scale(0.9)
+  rotateY(2deg);
+  z-index: 1;
+}
+#t-1:checked ~ .cards label[for='t-3'],
+#t-2:checked ~ .cards label[for='t-1'],
+#t-3:checked ~ .cards label[for='t-2']{
+  transform: translate(-350px, 0)
+  scale(0.9)
+  rotateY(-2deg);
+  z-index: 1;
+}
+#t-1:checked ~ .cards label[for='t-1'],
+#t-2:checked ~ .cards label[for='t-2'],
+#t-3:checked ~ .cards label[for='t-3']{
+  z-index: 3;
 }
 /* Доставка */
 .delivery {

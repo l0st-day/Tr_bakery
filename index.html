@@ -89,16 +89,32 @@
       </div>
       <div class="feedback">
         <div class="container">
-          <div class="card">
-            <img src="photo_2022-11-05 13.07.56.jpeg" alt="Отзыв 1" />
+          <div class="headingFeed clearfix"
+          >
+            <h2>Отзывы</h2>
           </div>
-          <div class="card">
-            <img src="photo_2022-11-05 12.38.01.jpeg" alt="Отзыв 2" />
-            <img src="photo_2022-11-05 12.37.51.jpeg" alt="Отзыв 3" />
-          </div>
-          <div class="card">
-            <img src="photo_2022-11-05 12.37.26.jpeg" alt="Отзыв 4" />
-            <img src="photo_2022-11-05 13.11.14.jpeg" alt="Отзыв 5" />
+          <div class="slider">
+            <input type="radio" name="radfeed" id="t-1">
+            <input type="radio" name="radfeed" id="t-2" checked>
+            <input type="radio" name="radfeed" id="t-3">
+            <div class="cards">
+              <label class="card" for="t-1">
+                <img src="photo_2022-11-05 12.38.01.jpeg" alt="Отзыв 1">
+                <img src="photo_2022-11-05 12.37.51.jpeg" alt="Отзыв 2">
+              </label>
+              <label class="card" for="t-2">
+                <img src="photo_2022-11-05 13.07.56.jpeg" alt="Отзыв 3">
+              </label>
+              <label class="card" for="t-3">
+                <img src="photo_2022-11-05 12.37.26.jpeg" alt="Отзыв 4">
+                <img src="photo_2022-11-05 13.11.14.jpeg" alt="Отзыв 5">
+              </label>
+            </div>
+            <div class="dots">
+              <label for="t-1"></label>
+              <label for="t-2"></label>
+              <label for="t-3"></label>
+            </div>
           </div>
         </div>
       </div>
